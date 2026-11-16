@@ -18,5 +18,5 @@ def test_prepare_data():
         random_state=42
     )
 
-    assert len(X_train) == 121
+    assert len(X_train) == 120
     assert len(X_test) == 30
