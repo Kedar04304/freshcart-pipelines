@@ -1,0 +1,21 @@
+name: iris_classifier
+type: python
+blocks:
+  - uuid: load_iris
+    type: data_loader
+    name: load_iris
+  - uuid: prepare_data
+    type: transformer
+    name: prepare_data
+  - uuid: train_model
+    type: transformer
+    name: train_model
+  - uuid: save_results
+    type: data_exporter
+    name: save_results
+  - uuid: evaluate_model
+    type: transformer
+    name: evaluate_model
+  - uuid: validate_data
+    type: transformer
+    name: validate_data

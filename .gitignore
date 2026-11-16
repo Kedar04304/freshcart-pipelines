@@ -1,0 +1,17 @@
+.env
+*.pkl
+*.csv
+mage.log
+__pycache__/
+
+# Python environment
+.venv/
+venv/
+
+# Python cache and test files
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Mac system files
+.DS_Store
