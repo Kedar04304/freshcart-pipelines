@@ -40,3 +40,23 @@ Documentation, integration diagram and viva preparation.
 - RabbitMQ
 - Pytest
 - GitHub Actions
+
+## Development and Validation
+
+### Setup
+Install project dependencies:
+
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+
+### Run tests
+
+    pytest -v
+
+### Project folders
+- elt/: FreshCart ELT notebook
+- iris_project/: Iris ML project
+- stream/: RabbitMQ dispatcher and driver
+- tests/: Automated tests
+- .github/workflows/: GitHub Actions CI
